@@ -5,11 +5,12 @@ Warning: This add-on is a software prototype. It is not recommend to use it in p
 
 ## Installation
 
-1. Copy the directory to packages/ folder of concrete5
-2. Login to the dashboard of your concrete5 instance
-3. Install open courses package
-4. Add "zip" to allowed file types in ""System&Settings->Permissions->Allowed File Types"
-5. have fun! :-)
+1. Rename folder to open_courses (important!)
+2. Copy/move the directory to packages/ folder of concrete5 (e.g. htdocs/my-concrete5-site/packages/open_courses/)
+3. Login to the dashboard of your concrete5 instance
+4. Install open courses package
+5. Add "zip" to allowed file types in ""System&Settings->Permissions->Allowed File Types"
+6. have fun! :-)
 
 Detailed installation instructions can be found here:
 http://openeoto.org/ (English website coming soon)
