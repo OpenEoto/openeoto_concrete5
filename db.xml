@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btOpenCoursesLearnerState">
+        <field name="ID" type="I">
+            <key></key>
+            <unsigned></unsigned>
+            <autoincrement></autoincrement>
+        </field>
+        <field name="uID" type="I">
+            <key ></key>
+            <unsigned ></unsigned>
+        </field>
+        <field name="eID" type="I">
+            <key ></key>
+            <unsigned ></unsigned>
+        </field>
+        <field name="state" type="C" size="255">
+        </field>
+        
+        <index name="userEntityIdIndex">
+            <descr>Unique index for eID and uID</descr>
+            <col>eID</col>
+            <col>uID</col>
+            <UNIQUE/>
+        </index>
+        
+    </table>
+    
+    <table name="btOpenCoursesUserActivity">
+        <field name="ID" type="I">
+            <key></key>
+            <unsigned></unsigned>
+            <autoincrement></autoincrement>
+        </field>
+        <field name="uID" type="I">
+            <key ></key>
+            <unsigned ></unsigned>
+        </field>
+        <field name="eID" type="I">
+            <key ></key>
+            <unsigned ></unsigned>
+        </field>
+        <field name="userRole" type="C" size="255">
+        </field>
+        <field name="event" type="C" size="255">
+        </field>
+        <field name="jsonData" type="X">
+        </field>
+        <field name="dateTime" type="T">
+        </field>
+    </table>
+    
+    
+</schema>

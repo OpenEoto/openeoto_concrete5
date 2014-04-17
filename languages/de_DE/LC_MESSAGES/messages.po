@@ -1,0 +1,985 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenEoto Courses Concrete5\n"
+"POT-Creation-Date: 2014-03-14 18:33+0100\n"
+"PO-Revision-Date: 2014-03-15 17:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /Users/admin/Webserver/bachelorarbeit/concrete5/packages/"
+"open_courses/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controller.php:3 controllers/course_dashboard.php:3
+#: controllers/dashboard/open_courses/courses.php:3
+#: controllers/dashboard/open_courses/settings.php:3
+#: controllers/page_types/open_courses_course.php:3
+#: controllers/page_types/open_courses_session.php:3
+#: libraries/crud_controller.php:2 models/open_courses_course_setup.php:3
+#: single_pages/course_dashboard.php:3
+#: single_pages/course_dashboard/change_session_order.php:1
+#: single_pages/course_dashboard/delete_session_check.php:1
+#: single_pages/course_dashboard/edit.php:1
+#: single_pages/course_dashboard/edit_session.php:1
+#: single_pages/course_dashboard/error_not_found.php:2
+#: single_pages/course_dashboard/learners.php:2
+#: single_pages/course_dashboard/no_permission.php:2
+#: single_pages/course_dashboard/statistics.php:1
+#: single_pages/dashboard/open_courses/courses.php:2
+#: single_pages/dashboard/open_courses/settings.php:2
+#: single_pages/dashboard/open_courses/courses/delete_check.php:2
+#: single_pages/dashboard/open_courses/courses/import.php:2
+#: single_pages/dashboard/open_courses/courses/list.php:2
+#: single_pages/dashboard/open_courses/courses/teachers.php:2
+#: single_pages/dashboard/open_courses/settings/edit.php:2
+#: single_pages/dashboard/open_courses/settings/setup_permissions.php:2
+msgid "Access Denied."
+msgstr "Zugriff verweigert."
+
+#: controller.php:12
+msgid "Course management for Concrete5"
+msgstr "Kursverwaltung für Concrete5"
+
+#: controller.php:16
+msgid "OpenEoto Courses"
+msgstr "OpenEoto Courses"
+
+#: controller.php:63
+msgid "Please enable Advanced Permissions for this add-on."
+msgstr ""
+"Bitte aktivieren Sie \"Erweiterte Berichtigungen\" in \"System & "
+"Einstellungen\"."
+
+#: controller.php:78
+#: single_pages/dashboard/open_courses/courses/teachers.php:9
+msgid "Course teachers"
+msgstr "Kurs-Lehrende"
+
+#: controller.php:80
+msgid "Users who administrate courses"
+msgstr "Benutzer die Kurse verwalten"
+
+#: controller.php:93
+msgid "Overview"
+msgstr "Übersicht"
+
+#: controller.php:95
+msgid "Course Management"
+msgstr "Kursverwaltung"
+
+#: controller.php:97 single_pages/dashboard/open_courses/settings.php:4
+#: single_pages/dashboard/open_courses/settings.php:9
+#: single_pages/dashboard/open_courses/settings/edit.php:4
+#: single_pages/dashboard/open_courses/settings/edit.php:6
+#: single_pages/dashboard/open_courses/settings/setup_permissions.php:6
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: controller.php:103 blocks/open_courses_my_courses/view.php:55
+msgid "Course"
+msgstr "Kurs"
+
+#: controller.php:108
+msgid "Course session"
+msgstr "Kurs-Sitzung"
+
+#: controller.php:113
+msgid "Open Courses Summary"
+msgstr "Kurs-Übersicht"
+
+#: controller.php:121
+msgid "Summary of "
+msgstr "Übersicht von"
+
+#: controller.php:161
+msgid "Course Dashboard"
+msgstr "Kurs-Dashboard"
+
+#: controller.php:182 controller.php:250
+msgid "Open Courses"
+msgstr ""
+
+#: controller.php:196
+msgid "Index?"
+msgstr "Index?"
+
+#: controller.php:198 single_pages/dashboard/open_courses/courses/list.php:49
+msgid "Published?"
+msgstr "Veröffentlicht?"
+
+#: controller.php:203
+msgid "Course: Completion Approval needed?"
+msgstr "Kurs: Berechtigung \"Kurs abschließen\" benötigt?"
+
+#: controller.php:204
+msgid "Course: Invite code"
+msgstr "Kurs: Invite Code"
+
+#: controller.php:205
+msgid "Course: Group ID Learners"
+msgstr "Kurs: Gruppen-ID Lernende"
+
+#: controller.php:206
+msgid "Course: Group ID Teachers"
+msgstr "Kurs: Gruppen-ID Lehrende"
+
+#: controller.php:207
+msgid "Course: File Set ID"
+msgstr "Kurs: Dateialben ID"
+
+#: controller.php:208
+msgid "Course: Learner left count"
+msgstr "Kurs: Lernende übrig"
+
+#: controller.php:210
+msgid "Session id"
+msgstr "Sitzungs-ID"
+
+#: controller.php:225
+msgid "Session: Completion approval needed?"
+msgstr "Sitzung: Berechtigung \"Sitzung abschließen\" benötigt?"
+
+#: blocks/open_courses_content/controller.php:12
+msgid "HTML/WYSIWYG Editor Content for Open Courses."
+msgstr "HTML/WYSIWYG Inhaltseditor for OpenEoto Courses"
+
+#: blocks/open_courses_content/controller.php:16
+msgid "Open Courses Content"
+msgstr "OpenEoto Inhalts-Block"
+
+#: blocks/open_courses_join_course/controller.php:53
+msgid "Congratulations! You joined the course: "
+msgstr "Glückwunsch! Sie sind dem Kurs erfolgreich beigetreten:"
+
+#: blocks/open_courses_join_course/controller.php:53
+msgid "Go to course"
+msgstr "Zum Kurs"
+
+#: blocks/open_courses_join_course/view.php:25
+#: blocks/open_courses_my_courses/view.php:129
+msgid "Error"
+msgstr "Fehler"
+
+#: blocks/open_courses_join_course/view.php:38
+msgid "Invite code"
+msgstr "Invite Code"
+
+#: blocks/open_courses_join_course/view.php:40
+msgid "Join"
+msgstr "Beitreten"
+
+#: blocks/open_courses_my_courses/controller.php:152
+msgid "New blank course"
+msgstr "Neuer leerer Kurs"
+
+#: blocks/open_courses_my_courses/controller.php:174
+#: controllers/dashboard/open_courses/courses.php:200
+msgid "No file selected. Please select a zip-file!"
+msgstr "Keine Datei ausgewählt. Bitte wählen Sie eine .zip-Datei aus!"
+
+#: blocks/open_courses_my_courses/controller.php:197
+msgid ""
+"You are not logged in or you do not have permission to execute this operation"
+msgstr ""
+"Sie sind nicht angemeldet und/oder haben nicht die erforderliche "
+"Berechtigung, um diese Aktion auszuführen."
+
+#: blocks/open_courses_my_courses/view.php:32
+msgid "Learning"
+msgstr "Lernend"
+
+#: blocks/open_courses_my_courses/view.php:40
+msgid "Teaching"
+msgstr "Lehrend"
+
+#: blocks/open_courses_my_courses/view.php:57
+msgid "Overall Progress"
+msgstr "Gesamtfortschritt"
+
+#: blocks/open_courses_my_courses/view.php:94
+msgid "No courses found."
+msgstr "Keine Kurse gefunden."
+
+#: blocks/open_courses_my_courses/view.php:119
+msgid "Create Course"
+msgstr "Kurs erstellen"
+
+#: blocks/open_courses_my_courses/view.php:135
+msgid "Start blank"
+msgstr "Leer starten"
+
+#: blocks/open_courses_my_courses/view.php:139
+msgid "Upload course"
+msgstr "Kurs hochladen"
+
+#: blocks/open_courses_my_courses/view.php:169
+msgid "You are not logged in. Please login to see your courses:"
+msgstr ""
+"Sie sind nicht angemeldet. Bitte melden Sie sich an, um ihre Kurse "
+"anzuschauen:"
+
+#: blocks/open_courses_my_courses/elements/form_create_blank_course.php:4
+msgid "Title:"
+msgstr "Titel:"
+
+#: blocks/open_courses_my_courses/elements/form_create_blank_course.php:5
+#: single_pages/course_dashboard.php:100
+#: single_pages/course_dashboard/edit.php:31
+#: single_pages/course_dashboard/edit_session.php:29
+#: single_pages/course_dashboard/statistics.php:62
+#: single_pages/dashboard/open_courses/courses/list.php:52
+msgid "Title"
+msgstr "Titel"
+
+#: blocks/open_courses_my_courses/elements/form_create_blank_course.php:8
+#: blocks/open_courses_my_courses/elements/form_upload_course.php:7
+#: single_pages/dashboard/open_courses/courses/import.php:27
+#: single_pages/dashboard/open_courses/courses/import.php:47
+msgid "Create course"
+msgstr "Kurs erstellen"
+
+#: blocks/open_courses_my_courses/elements/form_upload_course.php:4
+msgid "Course file (.zip):"
+msgstr "Kurs-Datei (.zip)"
+
+#: controllers/course_dashboard.php:72
+msgid "Session created sucessfully. Go to it: "
+msgstr "Sitzung erfolgreich erstellt. Zur Sitzung:"
+
+#: controllers/course_dashboard.php:191
+msgid "Group-ID for learner user group not found in database."
+msgstr "Gruppen-ID für Gruppe der Lerner nicht gefunden in der Datenbank."
+
+#: controllers/course_dashboard.php:208 controllers/course_dashboard.php:216
+msgid "Error: User could not be found in database."
+msgstr "Fehler: Benutzer nicht gefunden."
+
+#: controllers/course_dashboard.php:228
+msgid "User has been added successfully to group!"
+msgstr "Benutzer wurde erfolgreich der Gruppe hinzugefügt."
+
+#: controllers/course_dashboard.php:234
+msgid "Error: User is already teacher in this course."
+msgstr "Fehler: Benutzer ist bereits Lehrender des Kurses."
+
+#: controllers/course_dashboard.php:281
+msgid "Maximum length for field title is 100 chars"
+msgstr "Maximale Länge für das Feld \"Titel\" ist 100 Zeichen."
+
+#: controllers/dashboard/open_courses/courses.php:23
+msgid ""
+"Please enable Application Events, otherwise this plugin will not work "
+"correctly!"
+msgstr ""
+"Bitte aktivieren Sie \"Erweiterte Berichtigungen\" in \"System & "
+"Einstellungen\". Das Add-On wird sonst nicht korrekt funktionieren!"
+
+#: controllers/dashboard/open_courses/courses.php:37
+msgid "Course added succesfully"
+msgstr "Kurs erfolgreich hinzugefügt."
+
+#: controllers/dashboard/open_courses/courses.php:87
+msgid "Course imported successful!"
+msgstr "Kurs erfolgreich importiert."
+
+#: controllers/dashboard/open_courses/courses.php:116
+#: models/open_courses_course.php:86
+msgid "Group-ID for teacher user group not found in database."
+msgstr "Gruppen-ID für Gruppe der Lehrenden nicht gefunden."
+
+#: controllers/dashboard/open_courses/courses.php:156
+msgid "Error: Course could not be found."
+msgstr "Fehler: Kurs nicht gefunden."
+
+#: controllers/dashboard/open_courses/courses.php:166
+msgid "Course was deleted successfully."
+msgstr "Kurse wurde erfolgreich gelöscht."
+
+#: controllers/dashboard/open_courses/courses.php:179
+msgid "No file selected. Please select a .zip file"
+msgstr "Keine Datei ausgewählt. Bitte wählen Sie eine .zip-Datei aus."
+
+#: controllers/dashboard/open_courses/courses.php:185
+msgid "Invalid file. Please use a .zip file!"
+msgstr "Falsches Dateiformat: Bitte wählen Sie eine .zip-Datei aus."
+
+#: controllers/dashboard/open_courses/settings.php:53
+msgid "Configuration settings saved."
+msgstr "Konfiguration wurde gespeichert."
+
+#: controllers/dashboard/open_courses/settings.php:115
+msgid "Dashboard page not found."
+msgstr "Dashboard-Seite wurde nicht gefunden."
+
+#: controllers/dashboard/open_courses/settings.php:141
+msgid "Open courses dashboard page not found."
+msgstr "OpenEoto Courses Dashboard-Seite nicht gefunden."
+
+#: controllers/dashboard/open_courses/settings.php:155
+msgid ""
+"Setup permissions for dashboard pages finished. Please note that you need "
+"the set some permissions manually. See Installation Guide for detailed "
+"information."
+msgstr ""
+"Setzen der Berechtigungen für Dashboard-Seiten abgeschlossen. Bitte beachten "
+"Sie, dass Sie einige Berechtigungen noch manuell setzen müssen (Siehe "
+"Installationsanleitung)."
+
+#: controllers/page_types/open_courses_course.php:32
+msgid "Sorry, you have no permission to access this course."
+msgstr "Sorry, aber Sie haben keine Berechtigung diesen Kurs zu besuchen."
+
+#: controllers/page_types/open_courses_session.php:37
+msgid "Sorry, you have no permission to access this session."
+msgstr "Sorry, aber Sie haben keine Berechtigung diese Sitzung zu besuchen."
+
+#: helpers/open_courses.php:15
+msgid "File must be a .zip-archive."
+msgstr "Datei muss eine .zip-Datei sein."
+
+#: helpers/open_courses.php:25
+msgid "The allowed maxium upload file size is "
+msgstr "Die erlaubte maximale Dateigröße für Uploads beträgt:"
+
+#: helpers/open_courses.php:85
+msgid ""
+"Theme not found. Please check settings for open courses in the dashboard"
+msgstr ""
+"Theme wurde nicht gefunden. Bitte überprüfen Sie die Add-On Einstellungen!"
+
+#: models/open_courses_course.php:10
+msgid "Course collection page not found ID:"
+msgstr "Kurs-Seiten-ID nicht gefunden:"
+
+#: models/open_courses_course.php:36
+msgid ""
+"Server-Error: Course not found or course is not published yet. Please notify "
+"the administrator or teacher if this happens again."
+msgstr ""
+"Server-Fehler: Kurs wurde nicht gefunden oder Kurs wurde noch nicht "
+"veröffentlicht. Bitte benachrichtigen Sie die Administratoren, falls dies "
+"wieder geschieht."
+
+#: models/open_courses_course.php:46
+msgid "User is already teacher. You can't have both roles in a course."
+msgstr ""
+"Benutzer ist bereits Lehrender. Ein Benutzer kann nur Lehrender oder "
+"Lernender in einem Kurs sein."
+
+#: models/open_courses_course.php:53
+msgid "Server-Error. Please notify the administrator if this happens again."
+msgstr ""
+"Server-Fehler: Bitte benachrichtigen Sie die Administratoren, falls dies "
+"wieder geschieht."
+
+#: models/open_courses_course_setup.php:42
+msgid "Start course import..."
+msgstr "Starte Kurs-Import..."
+
+#: models/open_courses_course_setup.php:46
+msgid "Directory structure could not be set up. File Permission problem?"
+msgstr ""
+"Verzeichnisstruktur konnte nicht angelegt werden. Bitte überprüfen Sie die "
+"Dateiberechtigungen auf dem Server."
+
+#: models/open_courses_course_setup.php:87
+msgid ""
+"Directory structure of extracted zip archive is not valid or it is not a "
+"directory. Could not find sessions/-folder and index.html file."
+msgstr ""
+"Verzeichnisstruktur des entpackten zip-Archivs entspricht nicht den "
+"Vorgaben. Beim Import konnte das Verzeichnis \"sessions\" und die \"index."
+"html\"-Datei nicht gefunden werden."
+
+#: models/open_courses_course_setup.php:95
+msgid "JSON file course.json could not be parsed. Error:"
+msgstr "Die JSON-Datei \"course.json\" konnte nicht eingelesen werden. Fehler:"
+
+#: models/open_courses_course_setup.php:106
+msgid "Could not find any session .html files in directory sessions."
+msgstr "Konnte keine Sitzungsdateien in dem Verzeichnis \"sessions\" finden."
+
+#: models/open_courses_course_setup.php:145
+msgid ""
+"Path for session not found. Please check your course.json file. Session: "
+msgstr ""
+"Pfad für Sitzungen nicht gefunden. Bitte überprüfen Sie die \"course.json\"-"
+"Datei"
+
+#: models/open_courses_course_setup.php:152
+msgid "File not found for session. Path: "
+msgstr "Datei nicht gefunden für Sitzung. Angegebener Pfad: "
+
+#: models/open_courses_course_setup.php:296
+msgid "Course import finished successful..."
+msgstr "Kurs-Import erfolgreich abgeschlossen..."
+
+#: models/open_courses_course_setup.php:329
+msgid ""
+"Course code could not be generated. Please try again or contact an "
+"administrator."
+msgstr ""
+"Kurs-Code konnte nicht generiert werden. Bitte Administrator "
+"benachrichtigen, falls das wieder passiert."
+
+#: models/open_courses_course_setup.php:355
+msgid "Course teachers for"
+msgstr "Lehrende des Kurses für"
+
+#: models/open_courses_course_setup.php:356
+msgid "Users who are teachers in course with page ID:"
+msgstr "Benutzer die Lehrende des Kurses sind. Kurs-ID:"
+
+#: models/open_courses_course_setup.php:361
+msgid "Course learners for"
+msgstr "Kurs-Lernende für"
+
+#: models/open_courses_course_setup.php:362
+msgid "Users who are learners in course with page ID:"
+msgstr "Benutzer die Lernende des Kurses sind. Kurs-ID:"
+
+#: models/open_courses_course_setup.php:492
+#: models/open_courses_course_setup.php:496
+msgid "Directory "
+msgstr "Verzeichnis"
+
+#: models/open_courses_user_activity_object.php:82
+#: models/open_courses_user_activity_object.php:85
+#, php-format
+msgid "%s completed session '%s'"
+msgstr "%s abgeschlossene Sitzungen '%s'"
+
+#: models/open_courses_user_activity_object.php:88
+#, php-format
+msgid "%s unmarked session '%s' as completed"
+msgstr "%s hat Sitzung '%s' wieder als unabgeschlossen zurückgesetzt"
+
+#: models/open_courses_user_activity_object.php:91
+#, php-format
+msgid "%s unmarked course '%s' as completed"
+msgstr "%s hat Kurs '%s' wieder als unabgeschlossen zurückgesetzt"
+
+#: models/open_courses_user_activity_object.php:94
+#, php-format
+msgid "%s left course '%s'"
+msgstr "%s haben den Kurs '%s' verlassen"
+
+#: models/open_courses_user_activity_object.php:96
+#, php-format
+msgid "%s joined course '%s'"
+msgstr "%s ist dem Kurs '%s' beigetreten"
+
+#: models/open_courses_user_activity_object.php:98
+#, php-format
+msgid "%s added to course '%s' by teacher"
+msgstr "%s wurde dem Kurs '%s' von einem Lehrenden hinzugefügt"
+
+#: models/open_courses_user_activity_object.php:100
+#, php-format
+msgid "%s removed from course '%s' by teacher"
+msgstr "%s wurde vom Kurs '%s' von einem Lehrenden entfernt"
+
+#: page_types/open_courses_course.php:12
+msgid "Alert!"
+msgstr "Warnung!"
+
+#: page_types/open_courses_course.php:12
+msgid ""
+"Do you want to leave the course? All progress will be lost and you can't "
+"undo this! Are you sure?"
+msgstr ""
+"Wollen Sie den Kurs wirklich verlassen? Ihr gesamter Fortschritt und alle "
+"Daten werden gelöscht! Sind Sie sich sicher?"
+
+#: page_types/open_courses_course.php:16
+msgid "Yes, delete my data."
+msgstr "Ja, Daten löschen."
+
+#: page_types/open_courses_course.php:17
+#: single_pages/dashboard/open_courses/courses/delete_check.php:12
+#: single_pages/dashboard/open_courses/settings/edit.php:60
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: page_types/open_courses_course.php:45
+msgid "Teacher dashboard"
+msgstr "Lehrenden-Dashboard"
+
+#: page_types/open_courses_course.php:56
+msgid "Leave course"
+msgstr "Kurs verlassen"
+
+#: page_types/open_courses_course.php:65
+msgid "Finish course"
+msgstr "Kurs abschließen"
+
+#: page_types/open_courses_course.php:68 page_types/open_courses_course.php:91
+#: page_types/open_courses_session.php:12
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: page_types/open_courses_course.php:74
+#: single_pages/dashboard/open_courses/courses/list.php:57
+msgid "Sessions"
+msgstr "Sitzungen"
+
+#: page_types/open_courses_course.php:82
+msgid "Session"
+msgstr "Sitzung"
+
+#: page_types/open_courses_course.php:104
+#: single_pages/course_dashboard.php:149
+#: single_pages/course_dashboard/statistics.php:103
+msgid "No sessions found."
+msgstr "Keine SItzung gefunden."
+
+#: page_types/open_courses_session.php:9
+msgid "Mark as completed"
+msgstr "Als abgeschlossen markieren"
+
+#: single_pages/course_dashboard.php:12
+msgid "Back to Course WebView"
+msgstr "Zurück zur Kurs-Ansicht"
+
+#: single_pages/course_dashboard.php:36
+msgid "This course is in draft-mode:"
+msgstr "Dieser Kurs befindet sich im Entwurfsmodus:"
+
+#: single_pages/course_dashboard.php:36
+msgid "Activate it here"
+msgstr "Hier veröffentlichen"
+
+#: single_pages/course_dashboard.php:49
+msgid "Edit Settings"
+msgstr "Einstellungen bearbeiten"
+
+#: single_pages/course_dashboard.php:53
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: single_pages/course_dashboard.php:57
+msgid "Learners"
+msgstr "Lernende"
+
+#: single_pages/course_dashboard.php:65
+msgid "You can invite learner via this course invite code:"
+msgstr "Sie können Lernende über diesen Invite Code einladen"
+
+#: single_pages/course_dashboard.php:73
+msgid "Manage sessions"
+msgstr "Sitzungen verwalten"
+
+#: single_pages/course_dashboard.php:81
+msgid "Session title..."
+msgstr "Sitzungstitel..."
+
+#: single_pages/course_dashboard.php:83
+msgid "Add Session"
+msgstr "Sitzung hinzufügen"
+
+#: single_pages/course_dashboard.php:91
+msgid "Change order"
+msgstr "Sortierung verändern"
+
+#: single_pages/course_dashboard.php:99
+#: single_pages/course_dashboard/statistics.php:61
+msgid "Active?"
+msgstr "Aktiviert?"
+
+#: single_pages/course_dashboard.php:101
+msgid "Action"
+msgstr "Aktion"
+
+#: single_pages/course_dashboard.php:135
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: single_pages/course_dashboard.php:136
+#: single_pages/dashboard/open_courses/courses/list.php:71
+msgid "Delete"
+msgstr "Löschen"
+
+#: single_pages/course_dashboard.php:166
+msgid "Timeline of activities"
+msgstr "Timeline der Aktivitäten"
+
+#: single_pages/course_dashboard/change_session_order.php:3
+#: single_pages/course_dashboard/delete_session_check.php:2
+#: single_pages/course_dashboard/edit.php:2
+#: single_pages/course_dashboard/edit_session.php:2
+#: single_pages/course_dashboard/learners.php:4
+#: single_pages/course_dashboard/statistics.php:3
+msgid "Course dashboard"
+msgstr "Kurs-Dashboard"
+
+#: single_pages/course_dashboard/change_session_order.php:15
+msgid "Save"
+msgstr "Speichern"
+
+#: single_pages/course_dashboard/delete_session_check.php:5
+msgid "Delete session?"
+msgstr "Sitzung löschen?"
+
+#: single_pages/course_dashboard/delete_session_check.php:7
+msgid ""
+"Do you really want to delete the following session? All data will be lost. "
+"This can not be undone!"
+msgstr ""
+"Wollen Sie wirklich die folgende Sitzung löschen? Alle Daten gehen verloren. "
+"Das kann nicht rückgängig gemacht werden."
+
+#: single_pages/course_dashboard/delete_session_check.php:9
+msgid "Yes, delete"
+msgstr "Ja, löschen."
+
+#: single_pages/course_dashboard/edit.php:25
+msgid "Edit course"
+msgstr "Kurs bearbeiten"
+
+#: single_pages/course_dashboard/edit.php:39
+#: single_pages/course_dashboard/edit_session.php:39
+msgid "Is published?"
+msgstr "Ist veröffentlicht?"
+
+#: single_pages/course_dashboard/edit.php:52
+#: single_pages/course_dashboard/edit_session.php:63
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: single_pages/course_dashboard/edit_session.php:24
+msgid "Edit session"
+msgstr "Sitzung bearbeiten"
+
+#: single_pages/course_dashboard/error_not_found.php:7
+msgid "Sorry, course not found in database."
+msgstr "Kurs wurde nicht gefunden."
+
+#: single_pages/course_dashboard/learners.php:8
+msgid "Learner management"
+msgstr "Verwaltung Lernende"
+
+#: single_pages/course_dashboard/learners.php:17
+msgid "Add registered user"
+msgstr "Registrierte Benutzer hinzufügen"
+
+#: single_pages/course_dashboard/learners.php:20
+msgid "Email"
+msgstr "E-Mail"
+
+#: single_pages/course_dashboard/learners.php:22
+msgid "or"
+msgstr "oder"
+
+#: single_pages/course_dashboard/learners.php:23
+#: single_pages/course_dashboard/learners.php:45
+#: single_pages/dashboard/open_courses/courses/teachers.php:19
+msgid "Username"
+msgstr "Benutzername"
+
+#: single_pages/course_dashboard/learners.php:26
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: single_pages/course_dashboard/learners.php:31
+msgid "Invite user"
+msgstr "Benutzer einladen"
+
+#: single_pages/course_dashboard/learners.php:33
+msgid "You can invite unregistered users via this code: "
+msgstr "Sie können unregistrierte Benutzer über diesen Invite Code einladen:"
+
+#: single_pages/course_dashboard/learners.php:33
+msgid "(See Open Courses Manual for more information)"
+msgstr "(Für mehr Informationen schauen SIe bitte in das Handbuch)"
+
+#: single_pages/course_dashboard/learners.php:36
+msgid "Joined learners"
+msgstr "Beigetretene Lernende"
+
+#: single_pages/course_dashboard/learners.php:46
+#: single_pages/dashboard/open_courses/courses/teachers.php:20
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: single_pages/course_dashboard/learners.php:47
+#: single_pages/dashboard/open_courses/courses/list.php:58
+#: single_pages/dashboard/open_courses/courses/teachers.php:21
+msgid "Actions"
+msgstr "Aktionen"
+
+#: single_pages/course_dashboard/learners.php:53
+#: single_pages/dashboard/open_courses/courses/teachers.php:27
+msgid "Remove"
+msgstr "Entfernen"
+
+#: single_pages/course_dashboard/no_permission.php:7
+msgid ""
+"Sorry, although we really like Open Access, you have no permission for this "
+"course. Please contact the administrator if you have further questions or "
+"problems!"
+msgstr "Sie haben keine Berechtigung diesen Kurs zu betreten."
+
+#: single_pages/course_dashboard/statistics.php:22
+msgid "of all learners finished the course"
+msgstr "von allen Lernenden haben diesen Kurs abgeschlossen"
+
+#: single_pages/course_dashboard/statistics.php:41
+msgid "Total active learners"
+msgstr "Gesamte aktive Lernende"
+
+#: single_pages/course_dashboard/statistics.php:64
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: single_pages/course_dashboard/statistics.php:122
+msgid "Learner(s) left this course."
+msgstr "Lernende haben diesen Kurs verlassen."
+
+#: single_pages/dashboard/open_courses/courses.php:4
+msgid "Course Administration"
+msgstr "Kurs-Verwaltung"
+
+#: single_pages/dashboard/open_courses/settings.php:12
+#: single_pages/dashboard/open_courses/settings/edit.php:15
+msgid "Course create mode"
+msgstr "Kurs-Erstellungs-Modus"
+
+#: single_pages/dashboard/open_courses/settings.php:17
+msgid "All registered users can create courses."
+msgstr "Alle registrierten Benutzer können Kurse erstellen."
+
+#: single_pages/dashboard/open_courses/settings.php:20
+msgid "Teachers and Admins can create courses."
+msgstr "Lehrende und Administratoren können Kurse erstellen."
+
+#: single_pages/dashboard/open_courses/settings.php:23
+msgid "Only Admins can create courses."
+msgstr "Nur Administratoren können Kurse erstellen."
+
+#: single_pages/dashboard/open_courses/settings.php:30
+#: single_pages/dashboard/open_courses/settings/edit.php:38
+msgid "Allow script tags on import?"
+msgstr "Script-Tags beim Import erlauben?"
+
+#: single_pages/dashboard/open_courses/settings.php:34
+#: single_pages/dashboard/open_courses/courses/list.php:63
+msgid "No"
+msgstr "Nein"
+
+#: single_pages/dashboard/open_courses/settings.php:36
+#: single_pages/dashboard/open_courses/courses/list.php:63
+msgid "Yes"
+msgstr "Ja"
+
+#: single_pages/dashboard/open_courses/settings.php:44
+msgid "Theme handle for (new) courses and sessions"
+msgstr "Theme handle für neue Sitzungen und Kurse"
+
+#: single_pages/dashboard/open_courses/settings.php:55
+#: single_pages/dashboard/open_courses/settings/edit.php:11
+msgid "Edit settings"
+msgstr "Konfiguration bearbeiten"
+
+#: single_pages/dashboard/open_courses/settings.php:62
+msgid "Setup initial permissions"
+msgstr "Initiale Berechtigungen setzen"
+
+#: single_pages/dashboard/open_courses/settings.php:64
+msgid ""
+"You can set here (most of the) the dashboard page permissions automatically "
+"after installation."
+msgstr ""
+"Sie können hier die meisten der Berechtigungen für Dashboard-Seiten "
+"automatisiert vergeben."
+
+#: single_pages/dashboard/open_courses/settings.php:65
+#: single_pages/dashboard/open_courses/settings/setup_permissions.php:11
+msgid "Setup permissions"
+msgstr "Berechtigungen setzen"
+
+#: single_pages/dashboard/open_courses/courses/delete_check.php:4
+#: single_pages/dashboard/open_courses/courses/list.php:4
+#: single_pages/dashboard/open_courses/courses/teachers.php:4
+msgid "Course administration"
+msgstr "Kurs-Verwaltung"
+
+#: single_pages/dashboard/open_courses/courses/delete_check.php:8
+msgid "Do you really want to delete the course"
+msgstr "Wollen Sie diesen Kurs wirklich löschen"
+
+#: single_pages/dashboard/open_courses/courses/delete_check.php:10
+msgid "All data connected to this course will be removed."
+msgstr "Alle Daten werden unwiderruflich gelöscht."
+
+#: single_pages/dashboard/open_courses/courses/delete_check.php:12
+msgid "Yes, delete."
+msgstr "Ja, Löschen."
+
+#: single_pages/dashboard/open_courses/courses/import.php:4
+msgid "Create new course"
+msgstr "Neuen Kurs erstellen"
+
+#: single_pages/dashboard/open_courses/courses/import.php:6
+#: single_pages/dashboard/open_courses/courses/list.php:11
+#: single_pages/dashboard/open_courses/courses/teachers.php:7
+msgid "Courses"
+msgstr "Kurse"
+
+#: single_pages/dashboard/open_courses/courses/import.php:12
+msgid "Create a new course based on a course template (zip-file)."
+msgstr "Einen neuen Kurs basierend eines .zip-Archivs erstellen."
+
+#: single_pages/dashboard/open_courses/courses/import.php:18
+msgid "Use File Manager"
+msgstr "Datei-Manager benutzen"
+
+#: single_pages/dashboard/open_courses/courses/import.php:23
+msgid "Select file:"
+msgstr "Datei auswählen:"
+
+#: single_pages/dashboard/open_courses/courses/import.php:24
+msgid "Choose or upload a file (zip)"
+msgstr "Datei auswählen oder eine .zip-Datei hochladen"
+
+#: single_pages/dashboard/open_courses/courses/import.php:39
+msgid "One-time upload"
+msgstr "Einmaliger Upload"
+
+#: single_pages/dashboard/open_courses/courses/import.php:43
+msgid "Upload a file:"
+msgstr "Datei hochladen:"
+
+#: single_pages/dashboard/open_courses/courses/import.php:45
+msgid "File will be deleted after course creation."
+msgstr "Datei wird gelöscht nach Kurs-Erstellungen."
+
+#: single_pages/dashboard/open_courses/courses/import.php:58
+msgid "Import log"
+msgstr "Import-Log"
+
+#: single_pages/dashboard/open_courses/courses/import.php:62
+msgid "View course in dashboard"
+msgstr "Kurs im Dashboard ansehen"
+
+#: single_pages/dashboard/open_courses/courses/list.php:9
+msgid "Course: "
+msgstr "Kurs:"
+
+#: single_pages/dashboard/open_courses/courses/list.php:24
+msgid "Course title"
+msgstr "Kurs-Titel"
+
+#: single_pages/dashboard/open_courses/courses/list.php:25
+msgid "Create blank course"
+msgstr "Leeren Kurs erstellen"
+
+#: single_pages/dashboard/open_courses/courses/list.php:30
+msgid "Import course"
+msgstr "Kurs importieren"
+
+#: single_pages/dashboard/open_courses/courses/list.php:41
+msgid "Show all courses"
+msgstr "ALle Kurse anzeigen"
+
+#: single_pages/dashboard/open_courses/courses/list.php:55
+msgid "Date added"
+msgstr "Datum hinzugefügt"
+
+#: single_pages/dashboard/open_courses/courses/list.php:69
+msgid "Web view"
+msgstr "Web-Ansicht"
+
+#: single_pages/dashboard/open_courses/courses/list.php:70
+msgid "Teachers"
+msgstr "Lehrende"
+
+#: single_pages/dashboard/open_courses/courses/list.php:88
+msgid "There is no course. Please create or import your first course here:"
+msgstr ""
+"Kein Kurs vorhanden. Bitte erstellen oder importieren Sie ihren ersten Kurs "
+"hier:"
+
+#: single_pages/dashboard/open_courses/courses/teachers.php:38
+msgid "Add teacher"
+msgstr "Lehrenden hinzufügen"
+
+#: single_pages/dashboard/open_courses/courses/teachers.php:46
+msgid "Add user"
+msgstr "Benutzer hinzufügen"
+
+#: single_pages/dashboard/open_courses/settings/edit.php:21
+msgid "Admins only"
+msgstr "Nur Administratoren"
+
+#: single_pages/dashboard/open_courses/settings/edit.php:26
+msgid "Admins & Teachers"
+msgstr "Administratoren & Lehrende"
+
+#: single_pages/dashboard/open_courses/settings/edit.php:31
+msgid "Learners, Teachers and Admins"
+msgstr "Lehrende, Lernende und Administratoren"
+
+#: single_pages/dashboard/open_courses/settings/edit.php:33
+msgid ""
+"Warning: Please read the docs regarding security concerns if you want to "
+"give permission to learners and/or teachers to create/upload their own "
+"courses."
+msgstr ""
+"Warnung: Bitte lesen Sie die Add-On-Anleitung sorgfältig, wenn Sie Lernenden "
+"oder Lehrenden die Berechtigung geben wollen, eigene Kurse zu erstellen und/"
+"oder zu importieren. Gegebenfalls kann es zu Sicherheitsproblemen kommen."
+
+#: single_pages/dashboard/open_courses/settings/edit.php:43
+msgid ""
+"Warning: Please read the docs regarding security concerns if you enable this "
+"option."
+msgstr ""
+"Warnung: Bitte lesen Sie die Add-On-Anleitung sorgfältig, wenn Sie diese "
+"Option aktivieren wollen. Gegebenfalls kann es zu Sicherheitsproblemen "
+"kommen."
+
+#: single_pages/dashboard/open_courses/settings/edit.php:49
+msgid "Theme for (new) courses and sessions"
+msgstr "Theme für neue Kurse und Sitzungen"
+
+#: single_pages/dashboard/open_courses/settings/edit.php:59
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: single_pages/dashboard/open_courses/settings/setup_permissions.php:4
+msgid "Set up permissions"
+msgstr "Berechtigungen setzen"
+
+#: single_pages/dashboard/open_courses/settings/setup_permissions.php:13
+msgid ""
+"Warning: This action will overwrite pre-existing advanced permissions for "
+"the dashboard system pages & child pages! Are you sure?"
+msgstr ""
+"Warnung: Diese Aktion wird alle zuvor gesetzten Berechtigungen für "
+"Verwaltungs-Seiten (und Unterseiten) überschreiben. Sind Sie sich sicher?"
+
+#: single_pages/dashboard/open_courses/settings/setup_permissions.php:15
+msgid "Yes, setup permissions!"
+msgstr "Ja, Berechtigungen überschreiben."
+
+#: themes/open_courses/default.php:19
+msgid "Dashboard"
+msgstr "Verwaltung"
+
+#: themes/open_courses/elements/header.php:91
+msgid "Profile"
+msgstr "Profil"
+
+#: themes/open_courses/elements/header.php:94
+msgid "Sign out"
+msgstr "Abmelden"
+
+#: themes/open_courses/elements/header.php:103
+msgid "Sign in"
+msgstr "Anmelden"

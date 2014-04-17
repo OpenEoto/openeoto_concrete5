@@ -1,0 +1,33 @@
+#### CREDITS ####
+
+Thanks to all developers!
+
+#### Used libraries in this package ####
+
+PHP Validation
+Authors: Tasos Bekos, Chris Gutierrez and Corey Ballou
+https://github.com/blackbelt/php-validation
+
+SmartDOMDocument – A Smarter PHP DOMDocument Class
+Author: Artem Russakovskii 
+http://beerpla.net/projects/smartdomdocument-a-smarter-php-domdocument-class/
+
+CRUD Controller for concrete5
+Author: JordanLev
+https://github.com/jordanlev/c5_boilerplate_crud/blob/master/packages/automobiles/libraries/crud_controller.php
+
+AdminLTE Theme
+Author: almasaeed2010
+http://almsaeedstudio.com/
+
+#### Inspiration & examples used for this project ####
+
+Blank HTML5 Boilerplate for concrete5
+Author: Patrick Heck 
+http://www.concrete5.org/marketplace/themes/theme-blank-html5-boilerplate/
+
+DesignerContent for concrete5
+Author: Jordan Lev
+http://www.concrete5.org/marketplace/addons/designer-content/
+
+Thanks to the whole concrete5 community & especially the concrete5 core team!

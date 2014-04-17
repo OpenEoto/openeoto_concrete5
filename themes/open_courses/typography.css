@@ -1,0 +1,14 @@
+/* Apply to page and tinyMCE */
+h1,h2,h3,h4,h5 {color:maroon;}
+h1 {font-size:2.8em;}
+h2 {font-size:2.2em;}
+h3 {font-size:2.0em;}
+h4 {font-size:1.8em;}
+h5 {font-size:1.4em;}
+/*tinyMCE specific to make Headings slightly to fit better in the editor window */
+#tinymce h1 {font-size:2.0em;}
+#tinymce h2 {font-size:1.8em;}
+#tinymce h3 {font-size:1.6em;}
+#tinymce h4 {font-size:1.4em;}
+#tinymce h5 {font-size:1.2em;}
+/* End of tinyMCE specific */

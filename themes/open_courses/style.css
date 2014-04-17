@@ -1,0 +1,26 @@
+/* Optimized styles and additions for open courses package */
+
+
+/* Visible Toolbar adjustments */
+body.open-courses-toolbar-visible header{
+    z-index: 998; /* c5 toolbar has 999 */
+}
+body.open-courses-toolbar-visible #sidebar{
+    margin-top:50px;
+}
+
+.header a.logo{
+    font-family:'Arvo',Arial !important;
+    float:none !important;
+    width:100% !important;
+    text-align:left !important;
+}
+.header h1{
+    padding:0;
+    margin:0;
+}
+
+.header .navbar{
+    margin-left:0px !important;
+}
+
